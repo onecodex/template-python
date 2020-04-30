@@ -1,0 +1,8 @@
+.DS_Store
+.python-version
+.idea/
+*.pyc
+__pycache__
+venv/
+.vscode/
+.coverage
