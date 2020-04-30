@@ -16,3 +16,10 @@ make install
 ```
 
 You can re-install just the Python dependencies with `make install/requirements`. Test with `pytest` or `make test`. Format per-file on commit or by running `make format`.
+
+### Adding badges
+Unfortunately, Github badges need to have hardcoded paths. You can add this to the top of your `REAMDE.md` replacing `$REPO` as appropriate:
+
+```md
+![test](https://github.com/onecodex/$REPORT/workflows/test/badge.svg) ![pre-commit](https://github.com/onecodex/$REPORT/workflows/pre-commit/badge.svg)
+```
